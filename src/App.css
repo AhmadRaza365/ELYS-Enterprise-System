@@ -1,0 +1,10 @@
+.btn-grad{
+  background-image: linear-gradient(to right, #FB8E5C , #F66CB0);
+  border: none;
+  border-radius: 20px;
+}
+
+.btn-grad link .headerlink a{
+  text-decoration: none;
+  color:white;
+}

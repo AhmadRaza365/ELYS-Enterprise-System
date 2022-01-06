@@ -1,0 +1,197 @@
+.home-card {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: auto;
+}
+.home-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.card-text {
+  display: flex;
+  align-items: center;
+}
+
+.herotext h4 {
+  font-size: 2vw;
+  color: #fb8e5c;
+}
+.herotext h2 {
+  font-size: 3vw;
+  color: #fb8e5c;
+  text-align: center;
+}
+.herotext li {
+  color: #858585;
+  font-size: large;
+  font-weight: 500;
+  list-style: none;
+}
+
+.herotext h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  font-size: 6vw;
+
+  background: #fb8e5c;
+  background: -webkit-linear-gradient(to right, #fb8e5c 0%, #f66cb0 70%);
+  background: -moz-linear-gradient(to right, #fb8e5c 0%, #f66cb0 70%);
+  background: linear-gradient(to right, #fb8e5c 0%, #f66cb0 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.herotext p {
+  color: #858585;
+  font-size: large;
+  font-weight: 500;
+}
+
+.heroimg {
+  width: fit-content;
+  margin: auto;
+}
+
+.herobtn {
+  font-size: x-large;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+.tracking-card {
+  margin-top: 5%;
+}
+.bottom{
+    
+    margin: auto;
+}
+.bottom-board{
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+    justify-items: center;
+    align-items: center;
+    
+    background: linear-gradient(to right, #fb8e5c 0%, #f66cb0 70%);
+    
+    width: 90vw;
+    height: 40vh;
+    border-radius: 10px;
+
+}
+.bottom-board h2{
+
+
+    color: white;
+    font-size: 5vw;
+    margin: 5%;
+}
+.bottom-btn{
+   
+    background: linear-gradient(to right, #ffffff 0%, #ffffff 70%);
+    color: #f66cb0;
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 20px;
+    font-size: 2vw;
+}
+.bottom-btn:hover{
+    
+    color: #f66cb0;
+    border: #ffffff;
+}
+.bottom-btn:active{
+    
+    color: #f66cb0;
+}
+
+
+@media screen and (min-width: 992px) {
+  .faq-card {
+    margin-top: 5%;
+  }
+  .faq-card img {
+    width: 30vw;
+  }
+  .faq-card {
+    width: 100%;
+  }
+  .herotext {
+    margin: 10%;
+  }
+  .herotext h2 {
+    text-align: left;
+  }
+  .tracking-card img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 600px) {
+  .home-card {
+    display: grid;
+    grid-template-columns: 50% 40%;
+    margin: auto;
+  }
+  .heroimg {
+    width: 40vw;
+    margin: auto;
+  }
+  .herotext {
+    margin: 10%;
+  }
+  .herotext h2 {
+    font-size: 5vw;
+  }
+  .herotext p {
+    color: #858585;
+    font-size: small;
+    font-weight: 500;
+  }
+
+  .faq-card {
+    grid-template-columns: 40% 60%;
+  }
+
+  .bottom-board{
+      height: 25vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-card {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+  .heroimg {
+    width: 100vw;
+    margin: auto;
+  }
+  .herotext {
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+  }
+
+  .herotext h1 {
+    font-size: 10vw;
+    text-align: center;
+  }
+  .herotext h2 {
+    font-size: 10vw;
+  }
+  .herotext h4 {
+    font-size: 4vw;
+  }
+
+  .tracking-card {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .bottom-board{
+      grid-template-columns: 100%;
+    height: 20vh;
+}
+}
